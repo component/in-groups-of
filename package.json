@@ -1,8 +1,14 @@
 {
   "name": "in-groups-of",
+  "repo": "component/in-groups-of",
+  "description": "Return an array of arrays in groups of N",
   "version": "0.0.1",
-  "devDependencies": {
-    "mocha": "*",
-    "should": "*"
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "component": {
+    "scripts": {
+      "in-groups-of/index.js": "index.js"
+    }
   }
 }
