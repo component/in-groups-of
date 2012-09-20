@@ -5,7 +5,10 @@
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {},
-  "development": {},
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
   "component": {
     "scripts": {
       "in-groups-of/index.js": "index.js"
