@@ -2,7 +2,7 @@
   "name": "in-groups-of",
   "repo": "component/in-groups-of",
   "description": "Return an array of arrays in groups of N",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "keywords": [],
   "dependencies": {},
   "devDependencies": {
