@@ -3,7 +3,6 @@ module.exports = function(arr, n){
   var ret = [];
   var group = [];
   var len = arr.length;
-  var per = len * (n / len);
 
   for (var i = 0; i < len; ++i) {
     group.push(arr[i]);
