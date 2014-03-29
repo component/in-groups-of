@@ -1,5 +1,5 @@
 
-module.exports = function(arr, n){
+function inGroupsOf(arr, n){
   var ret = [];
   var group = [];
   var len = arr.length;
@@ -16,4 +16,9 @@ module.exports = function(arr, n){
   if (group.length) ret.push(group);
 
   return ret;
-};
+}
+
+if (typeof module !== 'undefined' && typeof module.exports !== 'undefined')
+    module.exports = inGroupsOf;
+  else
+    window.inGroupsOf = inGroupsOf;
